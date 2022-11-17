@@ -1,0 +1,45 @@
+body{
+    background: #F2F2F0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #0A0A08;
+}
+
+#profile-pic{
+    width: 500px;
+    height: 500px;
+}
+
+#navbar a{
+    color: #0A0A08;
+}
+
+#navbar a:hover{
+    color: #FE4C30;
+}
+
+#my-background{
+    color: #0A0A08;
+}
+
+#my-works{
+    color: #0A0A08;
+}
+
+#creative-process{
+    color: #0A0A08;
+}
+
+#contact a{
+    color: #0A0A08;
+}
+
+#contact a:hover{
+    color: #FE4C30;
+}
+
+.secondary-title:hover{
+    color: #FE4C30;
+}

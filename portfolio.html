@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Torben Stolt Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header id="header">
-      <nav>
+      <na id="navbar">
         <a href="#my-background">My Background</a>
         <a href="#my-works">Selected Work</a>
         <a href="#creative-process">Creative Process</a>
@@ -17,13 +18,11 @@
       <h1>Torben Stolt</h1>
     </header>
     <section id="my-background">
-      <img
+      <img id="profile-pic"
         src="images/portfolio-pic.jpeg"
-        width="800"
-        height="800"
         alt="Torben Stolt profile picture"
       />
-      <h2>My Background</h2>
+      <h2 class="secondary-title">My Background</h2>
       <p>
         Welcome to my playground! I'm Torben Stolt - a product designer who is looking to push
         creative boundaries and create functional yet fun internaction to humanize technology. I
@@ -34,30 +33,30 @@
       </p>
     </section>
     <section id="my-works">
-      <h2>Selected Work</h2>
-      <p>
+      <div>
+        <h2 class="secondary-title">Selected Work</h2>
+        <p>
         Here are some of my favorite works. Below you can find a collection of projects that I feel
         were the most challenging yet rewarding.
-      </p>
-      <ul>
-        <li>
-          <h3>Redesign of the Vinted App</h3>
-          <a href="">
-            <img src="" alt="Redesign of the Vinted App" />
-          </a>
-          <p>This will be the description of my project</p>
-        </li>
-        <li>
-          <h3>Designing a Habit Tracker</h3>
-          <a href="">
-            <img src="" alt="Designing a Habit Tracker" />
-          </a>
-          <p>This will be the description of my project</p>
-        </li>
-      </ul>
+        </p>
+      </div>
+      <div>
+        <h3>Redesign the Vinted App</h3>
+        <a href="">
+        <img src="" alt="Redesign Vinted App" />
+        </a>
+        <p>This will be the description of my project</p>
+      </div>
+      <div>
+        <h3>Designing a Habit Tracker</h3>
+        <a href="">
+        <img src="" alt="Designing a Habit Tracker" />
+        </a>
+        <p>This will be the description of my project</p>
+      </div>
     </section>
     <section id="creative-process">
-      <h2>Creative Process</h2>
+      <h2 class="secondary-title">Creative Process</h2>
       <p>
         Below you can find an outline of my creative process which helps me to deliver
         user-centered, goal-driven designs.
@@ -73,7 +72,7 @@
         <li>
           <h3>Discover & Strategize</h3>
           <p>
-            My hoal with each project is to deliver solid and real-world solutions that achieve
+            My goal with each project is to deliver solid and real-world solutions that achieve
             actual business needs, we do this through idea generation and exploration which parts
             make sense.
           </p>
