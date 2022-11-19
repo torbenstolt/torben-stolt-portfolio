@@ -11,21 +11,20 @@
     right: 0;
     overflow-x: hidden;
     padding-top: 40px;
-  }
+}
   
-  .navbar a {
-    text-decoration: none;
+.navbar a {
     font-family: neue-haas-display, sans-serif; 
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
-  }
+}
 
-  .navbar a:hover {
+.navbar a:hover {
     color: #0A0A08;
-  }
+}
 
 body{
     background: #F2F2F0;
@@ -77,7 +76,7 @@ h2{
     margin-inline-start: 0px;
 }
 
-#secondary-description{
+.secondary-description{
     font-family: neue-haas-display, sans-serif; 
     font-size: 20px;
     line-height: 33px;
@@ -162,3 +161,40 @@ p{
         height: 350px;
     }
 }
+
+#solid1 {
+    margin-top: 100px;
+}
+
+#solid2 {
+    margin-top: 900px;
+}
+
+ol{
+    list-style-type: none;
+    line-height: 20px;
+    max-width: 540px;
+}
+
+.header-creative-process{
+    margin-block-start: 40px;
+}
+
+#contact{
+    font-family: neue-haas-display, sans-serif; 
+    color: #0A0A08;
+    margin-block-start: 100px;
+}
+
+#contact a{
+    text-decoration: none;
+    margin-inline-end: 220px;
+}
+
+#section-left {
+    float: left;
+ }
+
+ #section-right {
+    float: right;
+ }
