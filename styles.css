@@ -115,6 +115,15 @@ p{
     margin-block-start: 80px;
 }
 
+.header-image-project{
+    width: 1375px;
+    height: 500px;
+    margin-block-start: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 #pic-project2{
     width: 600px;
     height: 600px;
@@ -167,13 +176,12 @@ p{
 }
 
 #solid2 {
-    margin-top: 900px;
+    margin-top: 100px;
 }
 
-ol{
+ul{
     list-style-type: none;
     line-height: 20px;
-    max-width: 540px;
 }
 
 .header-creative-process{
@@ -183,18 +191,47 @@ ol{
 #contact{
     font-family: neue-haas-display, sans-serif; 
     color: #0A0A08;
-    margin-block-start: 100px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
 }
 
 #contact a{
     text-decoration: none;
-    margin-inline-end: 220px;
+    margin-inline-end: 40px;
+    margin-block-start: 50px;
 }
 
-#section-left {
-    float: left;
- }
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0; 
+    padding: 0;
+}
 
- #section-right {
-    float: right;
- }
+.process-cards{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin-inline-end: 240px;
+    text-decoration: none;
+    flex-wrap: wrap;
+    margin: 0; 
+    padding: 0;
+}
+
+.process-card{
+    max-width: 240px;
+}
+
+.paragraphs{
+    line-height: 25px;
+    max-width: 1000px;
+    font-size: 16px;
+    margin-block-start: 36px;
+}
+
+#contact a:hover{
+    color: #FE4C30;
+}
